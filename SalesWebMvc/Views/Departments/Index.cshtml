@@ -6,13 +6,13 @@
 
 <h2>Department</h2>
 
-<body style="padding:40px">
+<body style="padding:50px">
     <h3>
         <a asp-action="Create">Create New</a>
     </h3>
-    <table class="table">
+    <table class="table table-striped table-hover" >
         <thead>
-            <tr>
+            <tr class="success">
                 <th>
                     @Html.DisplayNameFor(model => model.Name)
                 </th>
